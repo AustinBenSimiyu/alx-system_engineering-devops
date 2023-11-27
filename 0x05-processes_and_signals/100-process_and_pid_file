@@ -1,0 +1,14 @@
+#!/bin/bash
+
+PID_FILE="/var/run/myscript.pid"
+
+trap 'echo "I hate the kill command"' SIGTERM
+trap 'echo "Y U no love me?!"' SIGINT
+trap 'rm -f $PID_FILE; exit' SIGQUIT SIGTERM
+
+echo $$ > "$PID_FILE"
+
+while true; do
+    echo "To infinity and beyond"
+    sleep 1
+done
