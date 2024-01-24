@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Fixing apache to return a page
+service apache2 start
