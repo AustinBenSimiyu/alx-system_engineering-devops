@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#This code enables a connection between server and client on port 98
+nc -l 98
+nc localhost 98
