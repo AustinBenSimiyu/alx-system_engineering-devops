@@ -1,7 +1,7 @@
 0x19. Postmortem
 ================
 
-- By Dev Nderitu
+- By Austin Simiyu
 - Weight: 1
 
 Concepts
